@@ -1,12 +1,11 @@
 package Entities;
 
-
 import java.io.Serializable;
 
 public class Autor implements Serializable {
-    int id_autor;
-    String nom,  nacionalitat,any_naixement;
-    boolean actiu;
+    private  int id_autor;
+    private  String nom,  nacionalitat,any_naixement;
+    private  boolean actiu;
 
 
     public Autor( int id_autor,  String nom, String nacionalitat , String any_naixement,
